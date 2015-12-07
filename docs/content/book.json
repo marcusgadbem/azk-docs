@@ -1,8 +1,6 @@
 {
   "title": "azk Docs Gitbook",
   "description": "Gitbook documentation for azk",
-  // set gitbook version:
-  // https://github.com/GitbookIO/gitbook-cli#specify-a-specific-version
   "version": "2.5.0",
   "azkVersion": "0.13.0",
   "releaseNotes": "http://......",
