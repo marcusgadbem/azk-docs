@@ -12,13 +12,13 @@ systems({
       "npm i",
       "npm i gitbook-cli", // gitbook-cli has to be installed after gitbook
       "node_modules/.bin/gitbook versions:link node_modules/gitbook 2.5.0",
-      "node_modules/.bin/gitbook -v 2.5.0 install content",
+      "node_modules/.bin/gitbook install content",
     ],
     workdir: "/azk/#{manifest.dir}",
     shell: "/bin/bash",
     command: [
       "node_modules/.bin/gitbook versions:link node_modules/gitbook 2.5.0 && ",
-      "node_modules/.bin/gitbook -v 2.5.0 serve --port $HTTP_PORT content"
+      "node_modules/.bin/gitbook serve --port $HTTP_PORT content"
     ],
     wait: {"retry": 20, "timeout": 2000},
     mounts: {
