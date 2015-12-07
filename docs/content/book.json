@@ -1,0 +1,36 @@
+{
+  "title": "azk Docs Gitbook",
+  "description": "Gitbook documentation for azk",
+  // set gitbook version:
+  // https://github.com/GitbookIO/gitbook-cli#specify-a-specific-version
+  "version": "2.5.0",
+  "azkVersion": "0.13.0",
+  "releaseNotes": "http://......",
+  "plugins": [
+  ],
+  "pluginsConfig": {
+    "hotjar": {
+      "hjid": 110754
+    },
+    "ga": {
+      "token": "GA_UA_ID",
+      "configuration": {
+        "cookieDomain": "GA_COOKIE_DOMAIN"
+      }
+    }
+  },
+  "links": {
+    "home": "http://azk.io",
+    "issues": "https://github.com/azukiapp/azk/issues",
+    "theme": "node_modules/gitbook-theme-clarity/lib",
+    "custom": {
+        "custom": "http://azukiapp.com"
+    },
+    "sharing": {
+      "google": false,
+      "facebook": null,
+      "twitter": null,
+      "all": false
+    }
+  }
+}
