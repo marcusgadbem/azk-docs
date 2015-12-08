@@ -1,10 +1,15 @@
 {
   "title": "azk Docs Gitbook",
   "description": "Gitbook documentation for azk",
-  "version": "2.5.0",
+  "version": "2.6.4",
   "azkVersion": "0.13.0",
   "releaseNotes": "http://......",
   "plugins": [
+    "anchors",
+    "ga",
+    "hotjar",
+    "include",
+    "scrollablecode"
   ],
   "pluginsConfig": {
     "hotjar": {
