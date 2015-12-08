@@ -1,1 +1,0 @@
-**Upgrade notice**: If you already have `azk` installed, prior to the `0.6.0` release, follow [these steps](upgrading.md#upgrading-from-azk--051) before moving forward. If you do not have `azk` installed ignore this warning and continue the installation normally.
