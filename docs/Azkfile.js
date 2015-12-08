@@ -16,10 +16,7 @@ systems({
     ],
     workdir: "/azk/#{manifest.dir}",
     shell: "/bin/bash",
-    command: [
-      "node_modules/.bin/gitbook versions:link node_modules/gitbook 2.5.0 && ",
-      "node_modules/.bin/gitbook serve --port $HTTP_PORT content"
-    ],
+    command: "node_modules/.bin/gitbook versions:link node_modules/gitbook 2.5.0 && node_modules/.bin/gitbook serve --port $HTTP_PORT content",
     wait: {"retry": 20, "timeout": 2000},
     mounts: {
       '/azk/#{manifest.dir}'              : path("."),
