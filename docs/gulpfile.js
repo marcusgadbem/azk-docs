@@ -58,7 +58,7 @@ gulp.task('replace-ga-tokens', function() {
 
 gulp.task('replace-hotjar-token', function() {
   return gulp.src(['./content/_book/**/*.html'])
-    .pipe(replace(/HOTJAR_ID/gm, process.env.HOTJAR_ID))
+    .pipe(replace(/12345678901/gm, process.env.HOTJAR_ID))
     .pipe(gulp.dest('./content/_book'));
 });
 
