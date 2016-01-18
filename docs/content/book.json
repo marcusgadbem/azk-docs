@@ -13,7 +13,7 @@
   ],
   "pluginsConfig": {
     "hotjar": {
-      "hjid": 123456
+      "hjid": "HOTJAR_ID"
     },
     "ga": {
       "token": "GA_UA_ID",

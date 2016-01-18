@@ -56,6 +56,12 @@ gulp.task('replace-ga-tokens', function() {
     .pipe(gulp.dest('./content/_book'));
 });
 
+gulp.task('replace-hotjar-token', function() {
+  return gulp.src(['./content/_book/**/*.html'])
+    .pipe(replace(/HOTJAR_ID/gm, process.env.HOTJAR_ID))
+    .pipe(gulp.dest('./content/_book'));
+});
+
 gulp.task('copy-readme-to-index', function() {
   var rename = require("gulp-rename");
   return gulp.src(['./content/_book/**/README.html'])
@@ -141,6 +147,7 @@ gulp.task('deploy-prod', function(callback) {
               'replace-font-path-en',
               'override-landingpage',
               'replace-ga-tokens',
+              'replace-hotjar-token',
               'publish-stage-gz',
               callback);
 });
