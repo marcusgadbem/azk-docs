@@ -18,7 +18,7 @@
     "ga": {
       "token": "GA_UA_ID",
       "configuration": {
-        "cookieDomain": "GA_COOKIE_DOMAIN"
+        "legacyCookieDomain": "GA_LEGACY_COOKIE_DOMAIN"
       }
     },
     "sharing": {

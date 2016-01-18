@@ -52,7 +52,7 @@ gulp.task('replace-style.css-path-on-index', function(){
 gulp.task('replace-ga-tokens', function() {
   return gulp.src(['./content/_book/**/*.html'])
     .pipe(replace(/GA_UA_ID/gm, process.env.GA_UA))
-    .pipe(replace(/GA_COOKIE_DOMAIN/gm, process.env.GA_COOKIE_DOMAIN))
+    .pipe(replace(/GA_LEGACY_COOKIE_DOMAIN/gm, process.env.GA_LEGACY_COOKIE_DOMAIN))
     .pipe(gulp.dest('./content/_book'));
 });
 
