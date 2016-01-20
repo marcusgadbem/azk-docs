@@ -9,7 +9,8 @@
     "hotjar",
     "include",
     "scrollablecode",
-    "-sharing"
+    "-sharing",
+    "github"
   ],
   "pluginsConfig": {
     "hotjar": {
@@ -32,6 +33,9 @@
         "facebook", "google", "twitter",
         "weibo", "instapaper"
       ]
+    },
+    "github": {
+      "url": "https://github.com/azukiapp/azk"
     }
   },
   "links": {
