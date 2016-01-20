@@ -10,7 +10,8 @@
     "include",
     "scrollablecode",
     "-sharing",
-    "github"
+    "github",
+    "sitemap"
   ],
   "pluginsConfig": {
     "hotjar": {
@@ -33,6 +34,9 @@
     },
     "github": {
       "url": "https://github.com/azukiapp/azk"
+    },
+    "sitemap": {
+      "hostname": "http://docs.azk.io/"
     }
   },
   "links": {
