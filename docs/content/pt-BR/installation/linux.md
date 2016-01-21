@@ -20,7 +20,7 @@ Existem duas formas de instalação do Docker:
   ```bash
   $ curl -sSL https://get.docker.com/ | sh
   # ou
-  $ wget -qO- https://get.docker.com/ | sh
+  $ wget -nv https://get.docker.com/ -O- -t 2 -T 10 | sh
   ```
 
 2. Instalação manual:
@@ -80,6 +80,8 @@ será executado automaticamente no próximo login. Para isso execute os comandos
 ## Instalando o azk
 
 ### Instalação expressa
+
+A forma mais fácil de instalar o `azk` é utilizar o script abaixo. Ele vai identificar o sistema operacional que está usando e, se for compatível, realizar todos os processos de instalação.
 
 !INCLUDE "express.md"
 

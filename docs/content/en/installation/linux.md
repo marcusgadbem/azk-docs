@@ -20,7 +20,7 @@ There are two ways to install Docker:
   ```bash
   $ curl -sSL https://get.docker.com/ | sh
   # or
-  $ wget -qO- https://get.docker.com/ | sh
+  $ wget -nv https://get.docker.com/ -O- -t 2 -T 10 | sh
   ```
 
 2. Manual installation:
@@ -80,6 +80,8 @@ To do this, run:
 ## Installing azk
 
 ### Express installation
+
+The easiest way to install `azk` is to use the script below. It will identify your operating system, and if it is compatible perform all installation tasks.
 
 !INCLUDE "express.md"
 
