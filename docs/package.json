@@ -28,6 +28,7 @@
   },
   "homepage": "http://docs.azk.io",
   "dependencies": {
+    "gitbook-cli": "^1.0.1",
     "gulp-awspublish-router": "bvanvugt/gulp-awspublish-router",
     "gulp-if": "^1.2.5"
   }

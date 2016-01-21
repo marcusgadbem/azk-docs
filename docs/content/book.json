@@ -11,7 +11,8 @@
     "scrollablecode",
     "-sharing",
     "github",
-    "sitemap"
+    "sitemap",
+    "anchors"
   ],
   "pluginsConfig": {
     "hotjar": {
